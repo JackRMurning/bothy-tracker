@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "bothy-tracker-backend",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
