@@ -5,3 +5,4 @@
 * And maybe you can track which one's you've been to
 * Parking information
 * Possibly the time it takes to get to the Bothy (Naismiths Calculator, Time driving, get-ready estimation)
+* Be able to use offline
