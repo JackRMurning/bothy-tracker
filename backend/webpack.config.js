@@ -13,6 +13,16 @@ module.exports = {
             use: {
                 loader: 'ts-loader'
             }
+        }, {
+            test: /\.ts$/,
+            enforce: 'pre',
+            use: {
+                loader: 'tslint-loader',
+                options: {
+                    typeCheck: true,
+                    fix: true
+                }
+            }
         }]
     },
     externals: [nodeExternals()]
